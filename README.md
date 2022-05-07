@@ -14,7 +14,7 @@
 - Run php artisan serve
 ## Step 3: Enjoy!
 
-## My CTQM teams in this project:
+## My team in this project:
 1. Nguyễn Thị Thuỳ Linh
 2. Phạm Vương Nghĩa
 3. Nguyễn Đức Nhật
