@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	background-color: #f4f4f4;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: #4F3A41;
+}
+
+.section-contact {
+    padding: 100px;
+		background-color: #fff;
+}
+
+.section-contact .header-section .title {
+	position: relative;
+	margin-bottom: 17px;
+	text-transform: uppercase;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.section-contact .header-section .description {
+	font-family: "Roboto", sans-serif;
+	color: #B2766D;
+}
+
+.section-contact .form-contact .single-input {
+	position: relative;
+  margin-top: 40px;
+}
+
+.section-contact .form-contact .single-input i {
+	position: absolute;
+  top: 10.5px;
+  left: 15px;
+  color: #9F5449;
+}
+
+.section-contact .form-contact .single-input input,
+.section-contact .form-contact .single-input textarea {
+	width: 100%;
+  border: none;
+  border-bottom: 1px solid #EB9762;
+  padding-left: 50px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  font-size: 15px;
+	transition: border .3s;
+}
+
+.section-contact .form-contact .single-input input::placeholder,
+.section-contact .form-contact .single-input textarea::placeholder {
+	color: #ACACAC;
+}
+
+.section-contact .form-contact .single-input textarea {
+	height: 150px;
+	min-height: 50px;
+}
+
+.section-contact .form-contact .submit-input input {
+	margin-top: 40px;
+  padding: 15px 50px;
+  background: #394D5F;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.section-contact .form-contact .submit-input input:hover {
+	background: #FEF9E6;
+  color: #1B0E0C;
+  transition: background .3s;
+}
+
+@media (max-width: 575.99px) {
+	.section-contact {
+	    padding: 80px 60px;
+	}
+	.section-contact .header-section .title {
+	    font-size: 29px;
+	}
+	.section-contact .header-section .description {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+	.section-contact {
+	    padding: 80px 60px;
+	}
+	.section-contact .header-section .title {
+	    font-size: 30px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+	.section-contact {
+	    padding: 80px 60px;
+	}
+	.section-contact .header-section .title {
+	    font-size: 30px;
+	}
+}
